@@ -1,6 +1,6 @@
 # Auctions
 
-From a high level point of view the demo consists of a list of posts, where each post has its own detail.
+From a high level point of view the demo consists of a list of auctions, where each auction has its own detail.
 
 As an investor, I want to be able to use an iOS app to list all the auctions available in the marketplace.
 

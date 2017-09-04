@@ -8,10 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		C798970B1F5C787A008927A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798970A1F5C787A008927A7 /* AppDelegate.swift */; };
-		C798970D1F5C787A008927A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798970C1F5C787A008927A7 /* ViewController.swift */; };
 		C79897121F5C787A008927A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79897111F5C787A008927A7 /* Assets.xcassets */; };
 		C79897151F5C787A008927A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79897131F5C787A008927A7 /* LaunchScreen.storyboard */; };
-		C79897201F5C787A008927A7 /* AuctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798971F1F5C787A008927A7 /* AuctionsTests.swift */; };
+		C79897341F5C80C8008927A7 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79897331F5C80C8008927A7 /* AppNavigationController.swift */; };
+		C79897371F5C81F7008927A7 /* AuctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79897351F5C81F7008927A7 /* AuctionsViewController.swift */; };
+		C79897381F5C81F7008927A7 /* AuctionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79897361F5C81F7008927A7 /* AuctionsViewController.xib */; };
+		C798973E1F5C8450008927A7 /* AuctionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798973D1F5C8450008927A7 /* AuctionsViewModel.swift */; };
+		C79897411F5C8644008927A7 /* Auction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79897401F5C8644008927A7 /* Auction.swift */; };
+		C79897421F5C8C71008927A7 /* AuctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798971F1F5C787A008927A7 /* AuctionTests.swift */; };
+		C79897451F5CB1A6008927A7 /* AuctionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79897431F5CB1A6008927A7 /* AuctionCell.swift */; };
+		C79897461F5CB1A6008927A7 /* AuctionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79897441F5CB1A6008927A7 /* AuctionCell.xib */; };
+		C79897491F5CB928008927A7 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79897481F5CB928008927A7 /* NetworkClient.swift */; };
+		C798974C1F5CBAFD008927A7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C798974B1F5CBAFD008927A7 /* Alamofire.framework */; };
+		C79897511F5CD9C1008927A7 /* AuctionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79897501F5CD9C1008927A7 /* AuctionDetailViewModel.swift */; };
+		C79897541F5CDC50008927A7 /* AuctionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79897521F5CDC50008927A7 /* AuctionDetailViewController.swift */; };
+		C79897551F5CDC50008927A7 /* AuctionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79897531F5CDC50008927A7 /* AuctionDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +38,24 @@
 /* Begin PBXFileReference section */
 		C79897071F5C787A008927A7 /* Auctions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auctions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C798970A1F5C787A008927A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C798970C1F5C787A008927A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C79897111F5C787A008927A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C79897141F5C787A008927A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C79897161F5C787A008927A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C798971B1F5C787A008927A7 /* AuctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuctionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C798971F1F5C787A008927A7 /* AuctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionsTests.swift; sourceTree = "<group>"; };
+		C798971F1F5C787A008927A7 /* AuctionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionTests.swift; sourceTree = "<group>"; };
 		C79897211F5C787A008927A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79897331F5C80C8008927A7 /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		C79897351F5C81F7008927A7 /* AuctionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuctionsViewController.swift; sourceTree = "<group>"; };
+		C79897361F5C81F7008927A7 /* AuctionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuctionsViewController.xib; sourceTree = "<group>"; };
+		C798973D1F5C8450008927A7 /* AuctionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuctionsViewModel.swift; sourceTree = "<group>"; };
+		C79897401F5C8644008927A7 /* Auction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auction.swift; sourceTree = "<group>"; };
+		C79897431F5CB1A6008927A7 /* AuctionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuctionCell.swift; sourceTree = "<group>"; };
+		C79897441F5CB1A6008927A7 /* AuctionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuctionCell.xib; sourceTree = "<group>"; };
+		C79897481F5CB928008927A7 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		C798974B1F5CBAFD008927A7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		C79897501F5CD9C1008927A7 /* AuctionDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuctionDetailViewModel.swift; sourceTree = "<group>"; };
+		C79897521F5CDC50008927A7 /* AuctionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuctionDetailViewController.swift; sourceTree = "<group>"; };
+		C79897531F5CDC50008927A7 /* AuctionDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuctionDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C798974C1F5CBAFD008927A7 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +83,7 @@
 				C79897091F5C787A008927A7 /* Auctions */,
 				C798971E1F5C787A008927A7 /* AuctionsTests */,
 				C79897081F5C787A008927A7 /* Products */,
+				C798974A1F5CBAFD008927A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +101,7 @@
 			children = (
 				C798972A1F5C788B008927A7 /* App */,
 				C798972C1F5C7990008927A7 /* Auctions */,
+				C79897471F5CB90D008927A7 /* Networking */,
 			);
 			path = Auctions;
 			sourceTree = "<group>";
@@ -84,7 +109,7 @@
 		C798971E1F5C787A008927A7 /* AuctionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				C798971F1F5C787A008927A7 /* AuctionsTests.swift */,
+				C798971F1F5C787A008927A7 /* AuctionTests.swift */,
 				C79897211F5C787A008927A7 /* Info.plist */,
 			);
 			path = AuctionsTests;
@@ -94,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				C798972D1F5C7A42008927A7 /* AppDelegate */,
+				C79897321F5C8007008927A7 /* Controllers */,
 				C798972E1F5C7A6A008927A7 /* Recources */,
 				C798972F1F5C7A7A008927A7 /* Supporting Files */,
 				C79897301F5C7A8C008927A7 /* Views */,
@@ -104,7 +130,10 @@
 		C798972C1F5C7990008927A7 /* Auctions */ = {
 			isa = PBXGroup;
 			children = (
-				C798970C1F5C787A008927A7 /* ViewController.swift */,
+				C79897391F5C81FE008927A7 /* Controllers */,
+				C798973F1F5C862D008927A7 /* Model */,
+				C798973B1F5C8420008927A7 /* ViewModel */,
+				C798973A1F5C8205008927A7 /* Views */,
 			);
 			name = Auctions;
 			sourceTree = "<group>";
@@ -141,6 +170,67 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		C79897321F5C8007008927A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C79897331F5C80C8008927A7 /* AppNavigationController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C79897391F5C81FE008927A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C79897521F5CDC50008927A7 /* AuctionDetailViewController.swift */,
+				C79897351F5C81F7008927A7 /* AuctionsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C798973A1F5C8205008927A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C79897431F5CB1A6008927A7 /* AuctionCell.swift */,
+				C79897441F5CB1A6008927A7 /* AuctionCell.xib */,
+				C79897531F5CDC50008927A7 /* AuctionDetailViewController.xib */,
+				C79897361F5C81F7008927A7 /* AuctionsViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C798973B1F5C8420008927A7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C79897501F5CD9C1008927A7 /* AuctionDetailViewModel.swift */,
+				C798973D1F5C8450008927A7 /* AuctionsViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		C798973F1F5C862D008927A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C79897401F5C8644008927A7 /* Auction.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C79897471F5CB90D008927A7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C79897481F5CB928008927A7 /* NetworkClient.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		C798974A1F5CBAFD008927A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C798974B1F5CBAFD008927A7 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +241,7 @@
 				C79897031F5C787A008927A7 /* Sources */,
 				C79897041F5C787A008927A7 /* Frameworks */,
 				C79897051F5C787A008927A7 /* Resources */,
+				C798974D1F5CBB42008927A7 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -228,6 +319,9 @@
 			files = (
 				C79897151F5C787A008927A7 /* LaunchScreen.storyboard in Resources */,
 				C79897121F5C787A008927A7 /* Assets.xcassets in Resources */,
+				C79897381F5C81F7008927A7 /* AuctionsViewController.xib in Resources */,
+				C79897551F5CDC50008927A7 /* AuctionDetailViewController.xib in Resources */,
+				C79897461F5CB1A6008927A7 /* AuctionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,13 +334,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C798974D1F5CBB42008927A7 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C79897031F5C787A008927A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C798970D1F5C787A008927A7 /* ViewController.swift in Sources */,
+				C798973E1F5C8450008927A7 /* AuctionsViewModel.swift in Sources */,
+				C79897541F5CDC50008927A7 /* AuctionDetailViewController.swift in Sources */,
+				C79897341F5C80C8008927A7 /* AppNavigationController.swift in Sources */,
+				C79897371F5C81F7008927A7 /* AuctionsViewController.swift in Sources */,
+				C79897451F5CB1A6008927A7 /* AuctionCell.swift in Sources */,
+				C79897491F5CB928008927A7 /* NetworkClient.swift in Sources */,
+				C79897411F5C8644008927A7 /* Auction.swift in Sources */,
 				C798970B1F5C787A008927A7 /* AppDelegate.swift in Sources */,
+				C79897511F5CD9C1008927A7 /* AuctionDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79897201F5C787A008927A7 /* AuctionsTests.swift in Sources */,
+				C79897421F5C8C71008927A7 /* AuctionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +500,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K877UC2B8P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Auctions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = loumanv.Auctions;
@@ -393,6 +517,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K877UC2B8P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Auctions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = loumanv.Auctions;
